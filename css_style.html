@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+    .span{
+            background-color: red;
+        }
+        .container1{
+            height: 400px;
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .left{
+            height: 375px;
+            width: 48%;
+            background-color: yellowgreen;
+        }
+        .right{
+            height: 375px;
+            width: 48%;
+            background-color: yellowgreen;
+        }
+        .up{
+            height:190px ;
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+          
+        }
+        .down{
+            height:190px ;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+          
+        }
+        .b{
+            height: 180px;
+            width: 48%;
+            background-color: blue;
+        }
+        .container2{
+            height: 200px;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .left1{
+            height: 180px;
+            width: 48%;
+           
+            background-color: yellowgreen;
+        }
+        .left1 img{
+            justify-content: center;
+        }
+        .right1{
+            height: 180px;
+            width: 48%;
+            background-color: yellowgreen;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="left">
+            <img src="https://images.unsplash.com/photo-1615118265620-d8decf628275?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlJTIwbGFuZHNjYXBlfGVufDB8fDB8fHww">
+        </div>
+        <div class="right">
+            <div class="up">
+                <div class="b"></div>
+                <div class="b"></div>
+            </div>
+            <div class="down">
+                <div class="b"></div>
+                <div class="b"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="left1">
+            <img src="https://images.unsplash.com/photo-1610552050890-fe99536c2615?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZSUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        </div>
+        <div class="right1">
+            <div class="b"></div>
+                <div class="b"></div>
+        </div>
+    </div>
+</body>
+</html>
